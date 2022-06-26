@@ -1,0 +1,16 @@
+.nav-item{
+    text-align: center;
+    margin-top: 1rem;
+}
+.nav-item i{
+    font-size: 2rem;
+}
+.nav-item p{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+.nav-item:hover{
+    background-color: var(--background-gray);
+    cursor: pointer;
+}
+

@@ -1,0 +1,8 @@
+<div class="side-bar-container">
+    <div class="toggler">
+        <mat-icon>menu</mat-icon>
+    </div>
+    <div class="side-nav-items">
+        <app-nav-items *ngFor="let item of sideNavItems" [itemData]="item"></app-nav-items>
+    </div>
+</div>
