@@ -1,0 +1,12 @@
+.not-found-container{
+    text-align: center;
+    background-color: var(--background-gray);
+    height: 100vh;
+}
+.not-found-container h1{
+    font-size: 20rem;
+    font-weight: 300;
+}
+.not-found-container p{
+    font-size: 3rem;
+}
