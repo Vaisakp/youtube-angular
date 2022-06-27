@@ -6,10 +6,11 @@ import { YoutubeComponent } from './youtube.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { NavItemsComponent } from './side-bar/nav-items/nav-items.component';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule} from '@angular/material/icon';
 import { NavSearchComponent } from './nav-bar/nav-search/nav-search.component';
-import { CategorySelectorComponent } from './category-selector/category-selector.component';
+import { CategorySelectorComponent } from './nav-bar/category-selector/category-selector.component';
 import { SharedModule } from 'src/app/core/shared/shared/shared.module';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SharedModule } from 'src/app/core/shared/shared/shared.module';
     SideBarComponent,
     NavItemsComponent,
     NavSearchComponent,
-    CategorySelectorComponent
+    CategorySelectorComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,

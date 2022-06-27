@@ -7,10 +7,10 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    overflow-x: scroll;
+    overflow: scroll hidden;
     scroll-behavior: smooth;
-    overflow-y: hidden;
     padding-right: 2rem;
+    background-color: #fff;
 }
 .category-selector-container::-webkit-scrollbar{
     display: none;
@@ -23,4 +23,7 @@
     border-radius: 3rem;
     margin: 0 0.5rem;
     flex-shrink: 0;
+}
+.category-item:hover{
+    cursor: pointer;
 }

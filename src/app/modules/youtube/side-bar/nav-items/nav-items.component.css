@@ -12,5 +12,9 @@
 .nav-item:hover{
     background-color: var(--background-gray);
     cursor: pointer;
+    transition: none;
 }
 
+.nav-item:hover > mat-icon{
+    color: red;
+}

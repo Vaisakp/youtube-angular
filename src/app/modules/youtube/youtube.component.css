@@ -6,6 +6,7 @@
     overflow-y: scroll;
 }
 .body{
-    margin-top: 4rem;
-    margin-left: 7.5rem;
+    margin-top: 7.5rem;
+    margin-left: 7rem;
+    padding: 0.5rem;
 }
