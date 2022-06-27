@@ -7,7 +7,7 @@ export const sideNavItems: Array<SideNavItem> = [
   },
   {
     name: 'Explore',
-    class: 'explore md-48',
+    class: 'explore',
   },
   {
     name: 'Shorts',
