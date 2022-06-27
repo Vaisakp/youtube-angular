@@ -4,7 +4,7 @@ import { Directive, ElementRef } from '@angular/core';
   selector: '[appHorizontalMouseScroll]'
 })
 export class HorizontalMouseScrollDirective {
-  element: any;
+  element: HTMLElement;
   constructor(private elRef: ElementRef) {
     this.element = this.elRef.nativeElement;
     this.element.addEventListener('wheel',( event:any) => {
