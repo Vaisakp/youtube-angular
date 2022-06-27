@@ -1,0 +1,24 @@
+.category-selector-container{
+    width: 100%;
+    height: 3rem;
+    border-top: 0.1rem solid var(--background-gray);
+    border-bottom: 0.1rem solid var(--background-gray);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding-right: 2rem;
+}
+.category-selector-container::-webkit-scrollbar{
+    display: none;
+}
+.category-item{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--background-gray);
+    font-size: 1rem;
+    border-radius: 3rem;
+    margin: 0 0.5rem;
+    flex-shrink: 0;
+}

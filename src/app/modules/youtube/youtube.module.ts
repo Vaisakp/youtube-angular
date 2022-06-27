@@ -8,6 +8,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { NavItemsComponent } from './side-bar/nav-items/nav-items.component';
 import {MatIconModule} from '@angular/material/icon';
 import { NavSearchComponent } from './nav-bar/nav-search/nav-search.component';
+import { CategorySelectorComponent } from './category-selector/category-selector.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { NavSearchComponent } from './nav-bar/nav-search/nav-search.component';
     NavBarComponent,
     SideBarComponent,
     NavItemsComponent,
-    NavSearchComponent
+    NavSearchComponent,
+    CategorySelectorComponent
   ],
   imports: [
     CommonModule,

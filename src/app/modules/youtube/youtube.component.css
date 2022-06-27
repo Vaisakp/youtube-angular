@@ -5,3 +5,7 @@
     overflow-x: hidden;
     overflow-y: scroll;
 }
+.body{
+    margin-top: 4rem;
+    margin-left: 7.5rem;
+}
