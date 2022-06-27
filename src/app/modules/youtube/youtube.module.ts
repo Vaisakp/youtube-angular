@@ -9,6 +9,7 @@ import { NavItemsComponent } from './side-bar/nav-items/nav-items.component';
 import {MatIconModule} from '@angular/material/icon';
 import { NavSearchComponent } from './nav-bar/nav-search/nav-search.component';
 import { CategorySelectorComponent } from './category-selector/category-selector.component';
+import { SharedModule } from 'src/app/core/shared/shared/shared.module';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { CategorySelectorComponent } from './category-selector/category-selector
   ],
   imports: [
     CommonModule,
+    SharedModule,
     YoutubeRoutingModule,
     MatIconModule
   ]

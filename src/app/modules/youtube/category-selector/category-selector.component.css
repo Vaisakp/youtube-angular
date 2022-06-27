@@ -8,6 +8,8 @@
     flex-wrap: nowrap;
     flex-direction: row;
     overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
     padding-right: 2rem;
 }
 .category-selector-container::-webkit-scrollbar{
