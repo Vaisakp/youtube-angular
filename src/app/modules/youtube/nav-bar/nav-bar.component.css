@@ -1,11 +1,17 @@
 .nav-bar{
     height: 4rem;
-    width: 93%;
+    width: 100%;
     position: absolute;
-    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 7%;
+}
+.toggler{
+    position: absolute;
+    width: 7%;
+    left: 0;
+    margin: 0 !important;
 }
 .nav-bar .logo{
     width: 8rem;
@@ -21,14 +27,14 @@
     display: flex;
     align-items: center;
 }
-.nav-items mat-icon{
+.nav-items mat-icon,.toggler{
     margin: 0 0.5rem;
     font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nav-items mat-icon:hover,.nav-items .profile{
+.nav-items mat-icon:hover,.nav-items .profile,.toggler{
     cursor: pointer;
 }
 .nav-items .profile{

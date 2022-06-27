@@ -1,27 +1,13 @@
 .side-bar-container{
     position: fixed;
-    height: 100%;
     width: 7%;
+    top: 4rem;
 }
 
-.toggler{
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fa-bars{
-    font-size: 2rem;
-}
 .side-nav-items{
     height: 100%;
     overflow-y: scroll;
 }
 .side-nav-items::-webkit-scrollbar{
   display: none;
-}
-
-.toggler:hover{
-    cursor: pointer;
-    color: var(--background-gray);
 }
