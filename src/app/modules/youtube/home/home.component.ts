@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  showAdd:boolean = true;
   constructor() { }
-
   ngOnInit(): void {
+  }
+  closeAdd(){
+    this.showAdd = false;
   }
 
 }

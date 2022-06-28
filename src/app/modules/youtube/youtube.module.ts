@@ -13,6 +13,7 @@ import { SharedModule } from 'src/app/core/shared/shared/shared.module';
 import { HomeComponent } from './home/home.component';
 import { ToggleMenuComponent } from './nav-bar/toggle-menu/toggle-menu.component';
 import { CategoryItemComponent } from './nav-bar/toggle-menu/category-item/category-item.component';
+import { PremiumAddComponent } from './home/premium-add/premium-add.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CategoryItemComponent } from './nav-bar/toggle-menu/category-item/categ
     CategorySelectorComponent,
     HomeComponent,
     ToggleMenuComponent,
-    CategoryItemComponent
+    CategoryItemComponent,
+    PremiumAddComponent
   ],
   imports: [
     CommonModule,
