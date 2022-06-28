@@ -1,5 +1,5 @@
 <nav class="nav-bar">
-    <div class="toggler">
+    <div class="toggler" (click)="showToggleMenu()">
         <mat-icon>menu</mat-icon>
     </div>
     <div class="logo">
@@ -17,4 +17,7 @@
 </nav>
 <div class="category-selector">
     <app-category-selector [categoryList]="categoryList"></app-category-selector>
+</div>
+<div class="toggle-menu">
+    <app-toggle-menu></app-toggle-menu>
 </div>

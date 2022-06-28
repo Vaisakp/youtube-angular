@@ -1,0 +1,15 @@
+<div class="toggle-menu-container">
+  <div class="header">
+    <div class="toggler" (click)="hideToggleMenu()">
+      <mat-icon>menu</mat-icon>
+    </div>
+  </div>
+  <div class="main-categories">
+    <app-category-item *ngFor="let item of mainCategoryItems" [itemData]="item"></app-category-item>
+  </div>
+  <hr />
+  <div class="subcategories">
+    <app-category-item *ngFor="let item of subCategoryItems" [itemData]="item"></app-category-item>
+  </div>
+  <hr>
+</div>

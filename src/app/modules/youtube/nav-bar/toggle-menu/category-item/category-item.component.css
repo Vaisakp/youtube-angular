@@ -1,0 +1,22 @@
+.category-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.category-item:hover{
+    background-color: var(--background-gray);
+    cursor: pointer;
+}
+.category-item-icon {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  font-weight: 100;
+  font-size: 2rem;
+}
+.category-item-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.category-item:hover > .category-item-icon{
+    color: red;
+}

@@ -11,5 +11,7 @@ export class NavBarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  showToggleMenu(){
+   document.querySelector('.toggle-menu')?.classList.toggle('toggler-click');
+  }
 }

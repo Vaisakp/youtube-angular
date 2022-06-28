@@ -1,0 +1,28 @@
+.toggle-menu-container{
+    background-color: #fff;
+    height: 100%;
+    width: 15rem;
+    overflow: hidden scroll;
+}
+.toggle-menu-container::-webkit-scrollbar{
+    display: none;
+}
+.toggle-menu-container .header{
+    height: 4rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.toggler mat-icon{
+    position: absolute;
+    top: 0.8rem;
+    left: 2.2rem;
+}
+
+.toggler:hover{
+    cursor: pointer;
+}
+.main-categories{
+    margin-top: 2rem;
+}
+

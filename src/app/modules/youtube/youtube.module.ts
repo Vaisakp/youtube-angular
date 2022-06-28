@@ -11,6 +11,8 @@ import { NavSearchComponent } from './nav-bar/nav-search/nav-search.component';
 import { CategorySelectorComponent } from './nav-bar/category-selector/category-selector.component';
 import { SharedModule } from 'src/app/core/shared/shared/shared.module';
 import { HomeComponent } from './home/home.component';
+import { ToggleMenuComponent } from './nav-bar/toggle-menu/toggle-menu.component';
+import { CategoryItemComponent } from './nav-bar/toggle-menu/category-item/category-item.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { HomeComponent } from './home/home.component';
     NavItemsComponent,
     NavSearchComponent,
     CategorySelectorComponent,
-    HomeComponent
+    HomeComponent,
+    ToggleMenuComponent,
+    CategoryItemComponent
   ],
   imports: [
     CommonModule,
