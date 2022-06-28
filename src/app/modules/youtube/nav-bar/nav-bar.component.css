@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 7%;
-    z-index: 0;
+    z-index: 100;
+    background: white;
 }
 .toggler{
     position: absolute;
@@ -60,6 +61,7 @@
 }
 .toggle-menu{
     position: absolute;
+    z-index: 10;
     height: 100vh;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.1);

@@ -1,0 +1,9 @@
+.recommended-videos{
+    margin: 1rem 0;
+}
+.recommended-video-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
