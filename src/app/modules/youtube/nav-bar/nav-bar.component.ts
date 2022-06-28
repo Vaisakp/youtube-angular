@@ -7,11 +7,12 @@ import { categoryList } from 'src/app/core/data/category-list';
 })
 export class NavBarComponent implements OnInit {
   categoryList = categoryList;
+  isToggleActive: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
   }
-  showToggleMenu(){
-   document.querySelector('.toggle-menu')?.classList.toggle('toggler-click');
+  showHideToggleMenu(){
+    this.isToggleActive = !this.isToggleActive;
   }
 }

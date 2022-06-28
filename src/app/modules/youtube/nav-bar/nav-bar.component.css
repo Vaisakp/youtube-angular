@@ -63,8 +63,5 @@
     height: 100vh;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.1);
-    left: -100%;
-}
-.toggler-click{
     left: 0;
 }
