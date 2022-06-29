@@ -1,10 +1,43 @@
 .recommended-videos{
     margin: 1rem 0;
     padding: 0.5rem;
-
 }
 .recommended-video-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.small-video-container{
+    margin: 1rem;
+    width: 23%;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+@media(max-width: 1200px){
+   
+}
+@media(max-width: 992px){
+   
+}
+@media(max-width: 820px){
+   
+}
+@media(max-width: 762px){
+   
+}
+@media(max-width: 600px){
+    .recommended-videos{
+        margin: 0;
+        padding: 0;
+    }
+    .recommended-video-container{
+        flex-direction: column;
+    }
+    .small-video-container{
+        width: 100%;
+        margin: 0;
+    } 
 }

@@ -81,11 +81,8 @@
   .category-selector {
     left: 0;
   }
-  /* .search-bar {
-    display: none;
-  } */
   .nav-items mat-icon {
-    margin: 0 0.3rem;
+    margin: 0 0.5rem;
     font-size: 2rem;
     display: flex;
     align-items: center;
