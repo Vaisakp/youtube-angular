@@ -1,7 +1,7 @@
 .toggle-menu-container{
     background-color: #fff;
     height: 100%;
-    width: 15rem;
+    width: 17rem;
     overflow: hidden scroll;
 }
 .toggle-menu-container::-webkit-scrollbar{
@@ -11,7 +11,6 @@
     height: 4rem;
     position: relative;
     overflow: hidden;
-
 }
 .toggler mat-icon{
     position: absolute;
@@ -26,3 +25,6 @@
     margin-top: 2rem;
 }
 
+.toggler:active{
+    background-color: white;
+}

@@ -15,6 +15,7 @@ import { ToggleMenuComponent } from './nav-bar/toggle-menu/toggle-menu.component
 import { CategoryItemComponent } from './nav-bar/toggle-menu/category-item/category-item.component';
 import { PremiumAddComponent } from './home/premium-add/premium-add.component';
 import { SmallVideoCardComponent } from './home/small-video-card/small-video-card.component';
+import { WatchComponent } from './watch/watch.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SmallVideoCardComponent } from './home/small-video-card/small-video-car
     ToggleMenuComponent,
     CategoryItemComponent,
     PremiumAddComponent,
-    SmallVideoCardComponent
+    SmallVideoCardComponent,
+    WatchComponent
   ],
   imports: [
     CommonModule,
