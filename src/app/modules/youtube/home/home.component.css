@@ -1,9 +1,10 @@
 .recommended-videos{
     margin: 1rem 0;
+    padding: 0.5rem;
+
 }
 .recommended-video-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }

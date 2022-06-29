@@ -5,9 +5,12 @@
     <div class="logo">
         <img src="../../../../assets/youtube-logo.png" routerLink="/">
     </div>
-    <app-nav-search></app-nav-search>
+    <div class="search-bar" [ngClass]="searchBarClass">
+        <app-nav-search></app-nav-search>
+    </div>
     <div class="nav-items">
-        <mat-icon class="nav-icons">video_call</mat-icon>
+        <mat-icon class="search-icon" (click)="showSearchBar()">search</mat-icon>
+        <mat-icon >video_call</mat-icon>
         <mat-icon>apps</mat-icon>
         <mat-icon>notifications_none</mat-icon>
         <div class="profile">

@@ -1,1 +1,1 @@
-export const categoryList: Array<string> = ["All","Live","Trending","Gaming","Music","Mixes","Tamil Cinema","Web series","Javascript","css","All","Live","Trending","Gaming","Music","Mixes","Tamil Cinema","Web series","Javascript","css"]
+export const categoryList: Array<string> = ["All","Live","Trending","Gaming","Music","Mixes","Tamil Cinema","Web series","Javascript","css","All","Live","Trending","Gaming","Music","Mixes","Tamil Cinema","Web series","Javascript","css",]

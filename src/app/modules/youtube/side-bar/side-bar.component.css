@@ -11,3 +11,8 @@
 .side-nav-items::-webkit-scrollbar{
   display: none;
 }
+@media(max-width: 600px){
+  .side-bar-container{
+    display: none;
+  }
+}
