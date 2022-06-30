@@ -1,0 +1,80 @@
+.watch-video-container{
+    display: flex;
+}
+.video-section{
+    width: 65%;
+    margin: 1rem;
+}
+.playlist-section{
+    width: 35%;
+    background-color: yellow;
+    margin: 1rem;
+}
+.video-player video{
+    height: 35rem;
+    width: 100%;
+}
+.watch-video-details{
+    margin: 1rem 0;
+}
+.video-tag{
+    font-size: 1rem;
+}
+.video-name{
+    margin-top: 0.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.more-actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.more-actions .view-details{
+    width: 25%;
+}
+.more-actions .actions{
+    width: 55%;
+}
+.total-views,.release-date{
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    font-size: 1rem;
+}
+.actions{
+    display: flex;
+    align-items: center;
+}
+.icon-name{
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+.actions mat-icon{
+    margin: 0 0.5rem;
+}
+.actions mat-icon:hover,.icon-name:hover{
+    cursor: pointer;
+}
+.comments-section{
+    margin-top: 2rem;
+}
+.sort-by-container{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.comment-header{
+    display: flex;
+    align-items: center;
+}
+.total-comments,.sort-label{
+    font-weight: 500;
+}
+
+
+

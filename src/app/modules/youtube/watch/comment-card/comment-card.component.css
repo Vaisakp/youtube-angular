@@ -1,0 +1,88 @@
+.comment-card-container{
+    width: 100%;
+    margin-top: 2rem;
+}
+.add-comment-section .profile-pic img,
+.added-comments-section .profile-pic img{
+    width: 3.5rem;
+    border-radius: 50%;
+}
+.add-comment,.comment{
+    width: calc(100% - 5rem);
+    position: relative;
+}
+.add-comment input{
+    width: 100%;
+    height: 1rem;
+    padding: 1rem 1rem 1rem 0;
+    border: none;
+    border-bottom: 0.1rem solid var(--background-gray);
+    outline: none;
+}
+.add-comment input:focus{
+    border-bottom: 0.1rem solid black;
+}
+.add-comment-section, .added-comments-section{
+    display: flex;
+    justify-content: space-between;
+}
+.add-comment-action{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: right;
+}
+.add-comment-action button{
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+}
+.add-comment-action button:nth-child(2){
+    background-color: rgba(26, 55, 207, 1);
+    color: white;
+}
+.add-comment-action button:hover{
+    cursor: pointer;
+}
+.added-comments-section{
+    margin-top: 1.5rem;
+}
+.comment .user-details{
+    display: flex;
+}
+.username{
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.comment-text{
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+.added-comment-actions{
+    display: flex;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+.added-comment-actions mat-icon{
+    font-size: 1rem;
+}
+.added-comment-actions p{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.added-comment-actions mat-icon:hover,.added-comment-actions p:hover{
+    cursor: pointer;
+}
+.replies{
+    display: flex;
+    margin-top: 1rem;
+}
+.replies mat-icon, .replies h3{
+    color: rgba(82, 109, 255, 1);
+    font-size: 1rem;
+    align-items: stretch;
+    font-weight: 500;
+}
+.replies mat-icon{
+    font-size: 1.3rem;
+}

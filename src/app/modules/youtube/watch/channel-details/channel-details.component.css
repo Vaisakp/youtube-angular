@@ -1,0 +1,47 @@
+.channel-details-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    position: relative;
+}
+.channel-pic{
+    width: 4rem;
+}
+.channel-pic img{
+    width: 100%;
+    border-radius: 50%;
+}
+.channel-details{
+    width: calc(100% - 5rem);
+}
+.channel-information{
+    width: 80%;
+}
+.channel-name{
+    margin-bottom: 0.5rem;
+}
+.channel-description{
+    margin: 2rem 0;
+    font-weight: 400;
+}
+.show-more{
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    
+}
+.show-more:hover{
+   cursor: pointer;
+}
+.channel-actions{
+    position: absolute;
+    right: 1rem;
+}
+.channel-actions button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    border: none;
+}

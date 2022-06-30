@@ -1,0 +1,47 @@
+<div class="comment-card-container">
+  <div class="add-comment-section">
+    <div class="profile-pic">
+      <img
+        src="https://yt3.ggpht.com/UEDIZLYozVUCWJmBgTCQTzjkDg_Tu4imE20DlfLNf0NrYdQ-O4XK9_3GT3yXY6a_W_moMfsWwg=s48-c-k-c0x00ffffff-no-rj"
+      />
+    </div>
+    <div class="add-comment">
+      <input
+        type="text"
+        placeholder="Add a comment."
+        [(ngModel)]="newComment"
+      />
+      <div [hidden]="!newComment">
+        <div class="add-comment-action">
+          <button (click)="cancelAddComment()">CANCEL</button>
+          <button>COMMENT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="added-comments-section" *ngFor="let i of totalComments">
+    <div class="profile-pic">
+      <img
+        src="https://yt3.ggpht.com/UEDIZLYozVUCWJmBgTCQTzjkDg_Tu4imE20DlfLNf0NrYdQ-O4XK9_3GT3yXY6a_W_moMfsWwg=s48-c-k-c0x00ffffff-no-rj"
+      />
+    </div>
+    <div class="comment">
+      <div class="user-details">
+        <h4 class="username">Exam Hustle</h4>
+        <p class="commented-on">1 year ago</p>
+      </div>
+      <h4 class="comment-text">ഓരോ തവണ കേൾക്കുമ്പോഴും വേറെ ഏതോ ലോകത്തേക്ക് കൊണ്ട്പോകുന്ന ഒരു മാജിക്കൽ ഗാനം!❤️🔥👌</h4>
+      <div class="added-comment-actions">
+        <mat-icon>thumb_up</mat-icon>
+        <p>20 K</p>
+        <mat-icon>thumb_down</mat-icon>
+        <p>REPLY</p>
+    </div>
+    <div class="replies">
+        <mat-icon>keyboard_arrow_down</mat-icon>
+        <h3 class="reply-count">401 REPLIES</h3>
+    </div>
+    </div>
+  </div>
+</div>

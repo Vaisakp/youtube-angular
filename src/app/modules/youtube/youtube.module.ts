@@ -16,6 +16,8 @@ import { CategoryItemComponent } from './nav-bar/toggle-menu/category-item/categ
 import { PremiumAddComponent } from './home/premium-add/premium-add.component';
 import { SmallVideoCardComponent } from './home/small-video-card/small-video-card.component';
 import { WatchComponent } from './watch/watch.component';
+import { ChannelDetailsComponent } from './watch/channel-details/channel-details.component';
+import { CommentCardComponent } from './watch/comment-card/comment-card.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { WatchComponent } from './watch/watch.component';
     CategoryItemComponent,
     PremiumAddComponent,
     SmallVideoCardComponent,
-    WatchComponent
+    WatchComponent,
+    ChannelDetailsComponent,
+    CommentCardComponent
   ],
   imports: [
     CommonModule,

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HorizontalMouseScrollDirective } from '../../directives/horizontal-mouse-scroll.directive';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -9,10 +10,12 @@ import { HorizontalMouseScrollDirective } from '../../directives/horizontal-mous
     HorizontalMouseScrollDirective
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
-    HorizontalMouseScrollDirective
+    HorizontalMouseScrollDirective,
+    FormsModule
   ]
 })
 export class SharedModule { }
