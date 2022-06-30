@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "youtube"
+  "defaultProject": "youtube",
+  "cli": {
+    "analytics": false
+  }
 }

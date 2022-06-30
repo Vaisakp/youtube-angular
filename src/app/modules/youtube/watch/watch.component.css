@@ -5,14 +5,13 @@
     width: 65%;
     margin: 1rem;
 }
+::ng-deep youtube-player iframe {
+    width: 100%;
+  }
 .playlist-section{
     width: 35%;
     background-color: yellow;
     margin: 1rem;
-}
-.video-player video{
-    height: 35rem;
-    width: 100%;
 }
 .watch-video-details{
     margin: 1rem 0;
