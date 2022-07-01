@@ -1,0 +1,17 @@
+<div class="show-chat-reply" *ngIf="!expandChatReply" (click)="showHideChatReply()">
+    <h5>show chat reply</h5>
+</div>
+<div class="chat-reply-container" *ngIf="expandChatReply">
+    <div class="chat-reply-header">
+        <div class="title">
+            <h3>Top chat reply</h3>
+            <mat-icon>keyboard_arrow_down</mat-icon>
+        </div>
+        <mat-icon>more_vert</mat-icon>
+    </div>
+    <div class="chat-replies">    
+    </div>
+    <div class="hide-chat-reply" (click)="showHideChatReply()">
+        <h5>Hide chat reply</h5>
+    </div>
+</div>

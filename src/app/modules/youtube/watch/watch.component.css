@@ -2,15 +2,15 @@
     display: flex;
 }
 .video-section{
-    width: 65%;
+    width: 70%;
     margin: 1rem;
 }
 ::ng-deep youtube-player iframe {
     width: 100%;
   }
 .playlist-section{
-    width: 35%;
-    background-color: yellow;
+    width: 30%;
+    /* background-color: yellow; */
     margin: 1rem;
 }
 .watch-video-details{
@@ -74,6 +74,4 @@
 .total-comments,.sort-label{
     font-weight: 500;
 }
-
-
 

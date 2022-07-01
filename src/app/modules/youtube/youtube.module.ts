@@ -18,6 +18,11 @@ import { SmallVideoCardComponent } from './home/small-video-card/small-video-car
 import { WatchComponent } from './watch/watch.component';
 import { ChannelDetailsComponent } from './watch/channel-details/channel-details.component';
 import { CommentCardComponent } from './watch/comment-card/comment-card.component';
+import { PlaylistComponent } from './watch/playlist/playlist.component';
+import { MixedVideosComponent } from './watch/playlist/mixed-videos/mixed-videos.component';
+import { RecommendedVideosComponent } from './watch/playlist/recommended-videos/recommended-videos.component';
+import { ChatReplyComponent } from './watch/playlist/mixed-videos/chat-reply/chat-reply.component';
+import { MixedVideoCardComponent } from './watch/playlist/mixed-videos/mixed-video-card/mixed-video-card.component';
 
 
 @NgModule({
@@ -35,7 +40,12 @@ import { CommentCardComponent } from './watch/comment-card/comment-card.componen
     SmallVideoCardComponent,
     WatchComponent,
     ChannelDetailsComponent,
-    CommentCardComponent
+    CommentCardComponent,
+    PlaylistComponent,
+    MixedVideosComponent,
+    RecommendedVideosComponent,
+    ChatReplyComponent,
+    MixedVideoCardComponent
   ],
   imports: [
     CommonModule,

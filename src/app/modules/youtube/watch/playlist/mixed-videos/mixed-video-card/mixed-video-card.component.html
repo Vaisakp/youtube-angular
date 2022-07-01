@@ -1,0 +1,18 @@
+<div class="mixed-video-card-container" (mouseenter)="showActions=true" (mouseleave)="showActions=false">
+  <img
+    src="https://i.ytimg.com/vi/pn6M7_L1JbQ/hqdefault.jpg?s…QCAokN4AQ==&rs=AOn4CLDPXpxNoIR2uo85FqT7DWxyUKrI_Q"
+    class="mixed-video-card-thumbnail"
+  />
+  <div class="mixed-video-card-details">
+    <div class="title">
+      <h3>Thaanaa Serndha Koottam - Sodakku...</h3>
+      <p>SonyMusicSouthVEVO</p>
+    </div>
+    <div class="actions" >
+      <div [hidden]="!showActions">
+        <mat-icon>delete_outline</mat-icon>
+        <mat-icon>more_vert</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>
